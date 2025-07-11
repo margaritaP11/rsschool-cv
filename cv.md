@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
 ````
 ## Education 
 
-* _Ukraine:_ 2014 /2017 Kyiv Theological Seminary
-* _Germany:gi_ 2025 ItCareerHub
+* _Ukraine:_  2014 /2017 Kyiv Theological Seminary
+* _Germany:_  2025 ItCareerHub
 
 ## Languages
 
