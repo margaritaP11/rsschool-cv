@@ -1,5 +1,126 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.foto {
+  width: 200px;
+  height: 240px;
+ 
+  margin-top: 50px ;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+body {
+  width: 1000px;
+  
+  margin: auto;
+}
+.flex-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  justify-content: space-between;
+  height: 1400px;
+}
+.kontakte-section {
+  background-color: rgb(230, 218, 218);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.info-section {
+  background-color: rgb(240, 231, 222);
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  padding: 0 0 0 50px;
+}
+.kontakte-section,
+.info-section{
+  height: 100%;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+
+.flex-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 310px;
+  gap: 10px;
+  margin: 8px 0 ;
+}
+.flex-info a,
+.flex-info p {
+  word-break: break-all;
+  text-decoration: none;
+  color: inherit;
+  
+  line-height: 1.4;
+ 
+}
+.material-symbols-rounded{
+  color: rgb(189, 146, 239);
+}
+.secod-titel{
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color:  rgb(214, 202, 229);
+  margin: 20px 0 20px;
+}
+.title{
+  font-size: 40px;
+  color: rgb(143, 86, 209);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 25px;
+  margin-top: -150px;
+}
+.hobbys-section{
+  width: 300px;
+  line-height: 1.2;
+}
+.list{
+  width: 300px;
+}
+.text{
+  font-size:18px;
+  line-height: 1.6;
+}
+.text-beeruf{
+  font-size: 25px;
+}
+
+.text-width{
+  width: 500px;
+}
+.footer{
+width: 350px;
+
+}
+.school-logo{
+  width: 80px;
+  height: 100px; 
+  margin-right: 20px;
+
+}
+.text-size{
+  font-size: 16px;
+}
+.code{
+  font-size: 14px;
+ margin-bottom: -150px;
 }
