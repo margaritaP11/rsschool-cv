@@ -184,6 +184,18 @@
           German – B2 (speaking and reading), B1 (listening and writing).
         </p>
         <p class="text text-width">English A2</p>
+        <h2 class="secod-titel">Code Exampl</h2>
+        <pre class="code" ><code>document.addEventListener("DOMContentLoaded", () => {
+          renderTasks();
+          tabs[0].classList.add("tab__active");
+          currentFilter = "all";
+        
+          overlay.addEventListener("click", (e) => {
+          if (e.target === overlay) {
+            overlay.classList.remove("is-open");
+          }
+        });
+        });</code></pre>
       </section>
     </main>
   </body>
